@@ -1,4 +1,4 @@
-import Character from "../component/Character/Character";
+import Character from "../component/Player";
 import Header from "../component/Header";
 
 function Main() {

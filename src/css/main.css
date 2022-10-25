@@ -1,0 +1,2 @@
+.player-container {display: flex; padding: 0.7rem; border: 1px solid #000000;}
+.player-container > .player {width: 22%; border: 2px solid #000000; margin: 0.3rem; padding: 0.4rem;}
