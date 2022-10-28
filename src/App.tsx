@@ -1,4 +1,3 @@
-import Header from "./component/Header";
 import Main from "./page/Main";
 
 function App() {
