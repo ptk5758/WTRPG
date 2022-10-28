@@ -23,7 +23,7 @@ export default function() {
     const [players, setPlayer] = useState([]);
     return(
         <div className="player-container">
-            asas
+        
         </div>
     );
 }
