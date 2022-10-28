@@ -1,10 +1,10 @@
 export default function() {
     return(
         <div className="action-container">
-            <span>
+            <form className="action-form">
                 <input/>
-                <button>전송</button>
-            </span>
+                <span className="action-btn c-pointer">전송</span>
+            </form>
         </div>
     );
 }
