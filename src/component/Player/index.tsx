@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import usePlayer from "../../hook/usePlayer";
 
 function Character(props: any) {
     return(
@@ -19,7 +20,8 @@ function Character(props: any) {
     );
 }
 export default function() {
-    const [players, setPlayer] = useState([]);
+    const players = usePlayer("aaa");
+    // players.addPlayer({name:"bbb"});
     return(
         <div className="player-container">
             <Character/>
