@@ -1,14 +1,12 @@
-import Character from "../component/Player";
 import Header from "../component/Header";
-import Board from "../component/Board";
+import GameBoard from "../component/GameBoard";
 
 function Main() {
     return(
         <>
             <Header/>
             <main>
-                <Board/>
-                <Character/>
+                <GameBoard/>
             </main>
         </>
     );

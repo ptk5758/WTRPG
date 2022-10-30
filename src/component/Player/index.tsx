@@ -19,9 +19,7 @@ function Character(props: any) {
         </div>
     );
 }
-export default function() {
-    const players = usePlayer("aaa");
-    // players.addPlayer({name:"bbb"});
+export default function(props : any) {
     return(
         <div className="player-container">
             <Character/>
